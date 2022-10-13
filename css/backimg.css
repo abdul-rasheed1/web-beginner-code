@@ -1,0 +1,16 @@
+div.back{
+width:80%;
+/*border:3px solid green;*/
+padding-bottom:20em;
+
+background-repeat:no-repeat;
+color:white;
+}
+p{font-family:calibri;
+  font-size:3em;
+  font-weight:bold;
+margin-top:10em;
+margin-left:10em;
+
+}
+body{background-image: url("../images/back04.jpg");}

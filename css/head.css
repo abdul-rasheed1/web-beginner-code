@@ -1,0 +1,21 @@
+div {
+width:100%;
+position:fixed;
+left:0;
+top:0;
+background-color:grey;
+font-size:3em;
+font-family:Arial;
+color:lime;
+padding-left:3em; 
+}
+
+img{
+margin-left:-1.5em;
+margin-bottom:-2.5em;
+
+}
+
+p{
+margin-top:15em;
+}

@@ -1,0 +1,59 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+<link rel="stylesheet" href="css/formstyle.css">
+</head>
+
+<body>
+
+<div>
+<form action="send-email.php" method="post">
+<fieldset>
+<legend>login</legend>
+<label>username <input type="text" name="identity" size="20" maxlength="25"></label>
+<br><br>
+<label>password
+<input type="password" name="password" size="20" maxlength="30"></label>
+</fieldset>
+<br><br><br>
+<fieldset>
+<legend>info</legend>
+<label>Comment:
+<br>
+
+<textarea type="text" name="suggest" cols="40" rows="9"></textarea></label>
+<br><br>
+Your Device:
+<br>
+<label><input type="radio" name="rad" value="laptop"> Laptop</label>
+<label><input type="radio" name="rad" value="mobile"> Mobile</label>
+<label><input type="radio" name="rad" value="tablet"> Tablet</label>
+<label><input type="radio" name="rad" value="desktop"> Desktop</label>
+<br><br><br>
+ 
+which school do you attend:<br>
+
+<select name= "institution">
+<option value="none">select your school</option> 
+<option value="UG">University Of Ghana</option>
+<option value="KNUST">Kwame Nkrumah University of Science and Technology</option>
+<option value="UEW">University of Education</option>
+<option value="UCC">University of Cape Coast</option>
+<option value="UDS">University of Develpment Studies</option>
+<option vakue="ATU">Accra Technical University</option>
+<option value="UPSA">University of Professional Studies</option>
+<option value="KTU"> Kumasi Technical University</option>
+</select>
+</fieldset>
+<br>
+<input type="submit"  value="sign-in">
+
+
+
+</form>
+</div>
+
+</body>
+<html>

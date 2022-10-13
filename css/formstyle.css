@@ -1,0 +1,35 @@
+/*div{
+width:80%;
+border:3px solid brown;
+margin:0 auto 0 auto;
+}*/
+
+
+form{
+width:40%;
+border:5px solid blue;
+margin:1em auto auto 15em;
+padding-left:7em;
+padding-top:1em;
+padding-right:3em;
+padding-bottom:1em;
+font-famiy:Arial;
+font-size:1.5em;
+border-radius:18px;
+}
+
+fieldset{
+
+margin-left:-4.5em;
+border:2px solid orange;
+}
+
+input[type="submit"]{
+font-size:1em;
+border-radius:9px;
+
+}
+
+input[type="text"]{
+font-family:Arial,sans-serif;
+}

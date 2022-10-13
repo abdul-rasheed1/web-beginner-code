@@ -1,0 +1,59 @@
+p {
+    font-family: Georgia, "Times New Roman",Times, serif;
+    font-size: 1.8em;
+}
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size 2em;
+}
+
+p.st {
+      font-family: "Times New Roman", Arial;
+      font-size:2.5em;
+      font-weight:bold;
+      
+}
+
+.spec {
+       font-family:"Courier New", Courier, monospace;
+       font-size:5em;
+       font-weight:900;
+       
+}
+
+
+div.nav {
+         border:3px solid green;
+          padding-left: 3em;
+}
+div.main {
+          dispaly:float;
+         border:3px solid red;
+        
+       
+        
+       padding-left: 2em;
+}
+
+img {
+
+display:block;
+padding-left: 2em;
+padding-top: 2em;
+margin-left:auto;
+margin-right:auto;
+;
+}
+
+div.sid {
+        font-family: Arial;
+        border:2px solid orange;
+        font-weight:bolder;
+        
+}
+
+div.fut {
+     border: 3px solid blue;
+     
+}
+
